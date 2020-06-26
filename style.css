@@ -18,3 +18,18 @@ section {
     color: #fff;
     background: linear-gradient(-45deg, yellow, red);
 }
+ul li {
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar {
+    padding-top: 2rem;
+}
