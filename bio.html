@@ -43,7 +43,97 @@
         </div>
     </nav>
 
-    <!-- Contacts -->
-    <div>Soon to be updated.</div>
+    <div class="tabs-padding">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="about-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pics-tab" data-toggle="tab" href="#pics" role="tab" aria-controls="profile" aria-selected="false">Cool Pics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="vids-tab" data-toggle="tab" href="#vids" role="tab" aria-controls="contact" aria-selected="false">Cool Vids</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class='profile-pic-container'>
+                    <img src='./assets/profile-pic.jpg' width=200px class='profile-pic'/>
+            </div>
+            <div class='container-fluid padding'>
+                <div class='row text-center padding'>
+                    <div class='col-xs-12 col-sm-6 col-md-4'>
+                        <i class='fas fa-database'></i>
+                        <h3>MONGODB</h3>
+                        <p>Although I have experience with SQL, my full-stack web applications use MongoDB as their database.</p>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 col-md-4'>
+                        <i class="fab fa-react"></i>
+                        <h3>REACT</h3>
+                        <p>I use React, normally combined with Bootstrap, to make my web apps' UI more interactive, clean, and data-driven.</p>
+                    </div>
+                    <div class='col-sm-12 col-md-4'>
+                        <i class="fab fa-node"></i>
+                        <h3>NODEJS</h3>
+                        <p>Using NodeJS and ExpressJS, my APIs can be run on the same server as my UI.</p>
+                    </div>
+                </div>
+                <hr class='my-4'>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="pics" role="tabpanel" aria-labelledby="pics-tab">...</div>
+            <div class="tab-pane fade" id="vids" role="tabpanel" aria-labelledby="vids-tab">
+                <div class='container-fluid padding space'>
+                    <div class='row text-center padding'>
+                        <div class='col-xs-12 col-md-6'>
+                            <p class='image-caption'>When your youngest brother builds a quarter pipe, you have to ride it.</p>
+                            <video height=400px width=280px
+                                name="Skateboarding" src="./assets/skate.mov" autoplay loop></video>
+                        </div>
+                        <div class='col-sm-12 col-md-6'>
+                            <p class='image-caption'>I know you can't see where the ball went, but trust me, it went straight :)</p>
+                            <video height=400px width=280px
+                                name="Golf" src="./assets/golf.mov" autoplay loop></video>
+                        </div>
+                    </div>
+                    <hr class='my-4'>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <footer>
+        <div class='container-fluid padding'>
+        <div class='row text-center'>
+            <div class='col-md-4'>
+                <img src='./assets/IconLight.png' alt='' width='58px'/>
+                <hr class='light'/>
+                <p>801-509-8540</p>
+                <p>kylejamwright@gmail.com</p>
+                <p>Greater Salt Lake Area</p>
+            </div>
+            <div class='col-md-4'>
+                <hr class='light'/>
+                <h5>My hours</h5>
+                <hr class='light'/>
+                <p>Monday-Friday: 8am - 5pm</p>
+                <p>Saturday: 10am - 4pm</p>
+                <p>Sunday: Unavailable</p>
+            </div>
+            <div class='col-md-4'>
+                <hr class='light'/>
+                <h5>Service Area</h5>
+                <hr class='light'/>
+                <p>Utah</p>
+                <p>All other states</p>
+                <p>Wherever you are</p>
+            </div>
+            <div class='col-12'>
+                <hr class='light-100'/>
+                <h5>&copy; kylejw2.github.io</h5>
+            </div>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
