@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <title>Contact</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
@@ -14,7 +15,7 @@
     <!-- Navigation -->
     <nav class='navbar navbar-expand-md navbar-light bg-light sticky-top'>
         <div class='container-fluid'>
-            <a class='navbar-brand' href='#'><img src='./assets/Icon.png' width='75px'></a>
+            <a class='navbar-brand' href='index.html'><img src='./assets/Icon.png' width='75px'></a>
             <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
                 <span class='navbar-toggler-icon'></span>
             </button>
@@ -30,7 +31,7 @@
                         <a class='nav-link' href='resume.html'>Resume</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href="https://github.com/kylejw2" target="_blank">Projects</a>
+                        <a class='nav-link' href="projects.html">Projects</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link' href='#'>Contact</a>
@@ -43,18 +44,51 @@
         </div>
     </nav>
 
-    <!-- Contact -->
     <div class='container-fluid padding'>
-        <div class='row text-center padding'>
+        <div class='row padding contact-container'>
+        <div class='col-lg-6 text-center'>
+            <a href="mailto:kylejamwright@gmail.com?subject=Your Services"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <p>Get in touch through email</p>
+        </div>
+        <div class='col-lg-6 text-center'>
+            <a href="tel:801-509-8540"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <p>Or through phone.</p>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class='container-fluid padding'>
+        <div class='row text-center'>
+            <div class='col-md-4'>
+                <img src='./assets/IconLight.png' alt='' width='58px'/>
+                <hr class='light'/>
+                <p>801-509-8540</p>
+                <p>kylejamwright@gmail.com</p>
+                <p>Greater Salt Lake Area</p>
+            </div>
+            <div class='col-md-4'>
+                <hr class='light'/>
+                <h5>My hours</h5>
+                <hr class='light'/>
+                <p>Monday-Friday: 8am - 5pm</p>
+                <p>Saturday: 10am - 4pm</p>
+                <p>Sunday: Unavailable</p>
+            </div>
+            <div class='col-md-4'>
+                <hr class='light'/>
+                <h5>Service Area</h5>
+                <hr class='light'/>
+                <p>Utah</p>
+                <p>All other states</p>
+                <p>Wherever you are</p>
+            </div>
             <div class='col-12'>
-                <h2>Connect</h2>
-            </div>
-            <div class='col-12 social padding'>
-                <a href='#'><i class='fab fa-facebook'></i></a>
-                <a href='#'><i class='fab fa-google-plus-g'></i></a>
-                <a href='#'><i class="fab fa-github"></i></a>
+                <hr class='light-100'/>
+                <h5>&copy; kylejw2.github.io</h5>
             </div>
         </div>
         </div>
+    </footer>
 </body>
 </html>
