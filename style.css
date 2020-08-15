@@ -122,7 +122,7 @@ footer a {
 
 .profile-pic {
     border-radius: 50%;
-    box-shadow: 0px 5px 10px 5px #7a7a7a;
+    box-shadow: 3px 3px 5px 3px #7a7a7a;
     width: 100%;
     height: auto;
 }
@@ -151,6 +151,19 @@ footer a {
 
 .image-caption {
     padding-top: 20px;
+}
+.pics {
+    padding-top: 25px;
+    /* display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+.pics > div{
+    padding: 10px;
+}
+.pics img {
+    height: auto;
+    width: 100%;
 }
 
 /* Media Queries */
