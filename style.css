@@ -112,9 +112,8 @@ footer a {
 }
 
 .profile-pic-container {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
+    width: 200px;
+    margin: 50px auto;
 }
 
 .tabs-padding {
@@ -124,6 +123,8 @@ footer a {
 .profile-pic {
     border-radius: 50%;
     box-shadow: 0px 5px 10px 5px #7a7a7a;
+    width: 100%;
+    height: auto;
 }
 
 .fa-database {
@@ -181,10 +182,6 @@ footer a {
     .social a {
         font-size: 2.5em;
         padding: 1.2rem;
-    }
-    .profile-pic {
-        width: 100px;
-        height:100px;
     }
     .tabs-padding {
         padding: 50px 0 0 0;
