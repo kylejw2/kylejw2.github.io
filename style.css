@@ -69,6 +69,8 @@ footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
     padding-top: 2rem; 
+    min-height: 350px;
+    /* margin-bottom: -350px; */
 }
 hr.light {
     border-top: 1px solid #d5d5d5;
@@ -111,7 +113,7 @@ footer a {
 
 .download-resume {
     padding-top: 50px;
-    padding-bottom: 300px;
+    padding-bottom: 250px;
 }
 .download-resume > a {
     font-size: 2rem;
