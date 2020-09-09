@@ -107,7 +107,7 @@ footer a {
 .fa-phone {
     color: green;
 }
-.fa-code:hover, .fa-github:hover, .fa-envelope:hover, .fa-phone:hover {
+.fa-code:hover, .fa-github:hover, .fa-envelope:hover, .fa-phone:hover, .fa-cubes:hover {
     color: #d5d5d5;
 }
 
